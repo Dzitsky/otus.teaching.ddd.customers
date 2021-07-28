@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Otus.Teaching.Ddd.Customers.Core.Domain.Aggregates.Customer.Customer">
+    <Position X="10" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAACAAAgAAAAAOAAECAAAAAIAAAAAAAAAgAAAAEAAAA=</HashCode>
+      <FileName>Aggregates\Customer\Customer.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Channel" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="JobPlaces" />
+      <Property Name="Contacts" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Otus.Teaching.Ddd.Customers.Core.Domain.Aggregates.Customer.JobPlace">
+    <Position X="12.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAgAABAAAAAAAAAAAAAABAAAAAAAEAAAAA=</HashCode>
+      <FileName>Aggregates\Customer\JobPlace.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Otus.Teaching.Ddd.Customers.Core.Domain.Aggregates.Customer.Contact">
+    <Position X="7.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAACAAAAAAAAAAAAAAAAAAABAAAAAAIAAAAAA=</HashCode>
+      <FileName>Aggregates\Customer\Contact.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Otus.Teaching.Ddd.Customers.Core.Domain.Aggregates.Customer.AcquisitionChannel" Collapsed="true">
+    <Position X="12.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAACAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Aggregates\Customer\AcquisitionChannel.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
