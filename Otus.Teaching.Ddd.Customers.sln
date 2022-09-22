@@ -1,12 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Otus.Teaching.Ddd.Customers.Host.WebApi", "Otus.Teaching.Ddd.Customers.Host.WebApi\Otus.Teaching.Ddd.Customers.Host.WebApi.csproj", "{1127106A-5D61-49E9-815F-269DB20015A9}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2281B11B-9937-411A-ABDA-9EC3525EF0DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Otus.Teaching.Ddd.Customers.Core.Application", "Otus.Teaching.Ddd.Customers.Core.Application\Otus.Teaching.Ddd.Customers.Core.Application.csproj", "{999BC86D-57A9-45B9-8692-E58837D7E1DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Otus.Teaching.Ddd.Customers.Core.Application", "src\Otus.Teaching.Ddd.Customers.Core.Application\Otus.Teaching.Ddd.Customers.Core.Application.csproj", "{A7A3EFF1-A446-47AD-81EE-D7DFBCF78D51}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Otus.Teaching.Ddd.Customers.Core.Domain", "Otus.Teaching.Ddd.Customers.Core.Domain\Otus.Teaching.Ddd.Customers.Core.Domain.csproj", "{61BED03F-8E10-4112-9AF9-331C6BC5382A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Otus.Teaching.Ddd.Customers.Core.Domain", "src\Otus.Teaching.Ddd.Customers.Core.Domain\Otus.Teaching.Ddd.Customers.Core.Domain.csproj", "{D0A2715B-B39C-4593-85ED-4660C6B31C9D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Otus.Teaching.Ddd.Customers.Infrastructure.DataAccess", "Otus.Teaching.Ddd.Customers.Infrastructure.DataAccess\Otus.Teaching.Ddd.Customers.Infrastructure.DataAccess.csproj", "{DD4C853F-F2F6-4FB3-B30A-CB1B0FC733D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Otus.Teaching.Ddd.Customers.Host.WebApi", "src\Otus.Teaching.Ddd.Customers.Host.WebApi\Otus.Teaching.Ddd.Customers.Host.WebApi.csproj", "{7E46FAD0-B2C7-4A30-80DF-5DF14ED031A8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Otus.Teaching.Ddd.Customers.Infrastructure.DataAccess", "src\Otus.Teaching.Ddd.Customers.Infrastructure.DataAccess\Otus.Teaching.Ddd.Customers.Infrastructure.DataAccess.csproj", "{E84F8756-DF3A-4E76-AA43-23223688D8CC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -14,21 +19,33 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1127106A-5D61-49E9-815F-269DB20015A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1127106A-5D61-49E9-815F-269DB20015A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1127106A-5D61-49E9-815F-269DB20015A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1127106A-5D61-49E9-815F-269DB20015A9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{999BC86D-57A9-45B9-8692-E58837D7E1DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{999BC86D-57A9-45B9-8692-E58837D7E1DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{999BC86D-57A9-45B9-8692-E58837D7E1DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{999BC86D-57A9-45B9-8692-E58837D7E1DC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{61BED03F-8E10-4112-9AF9-331C6BC5382A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{61BED03F-8E10-4112-9AF9-331C6BC5382A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{61BED03F-8E10-4112-9AF9-331C6BC5382A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{61BED03F-8E10-4112-9AF9-331C6BC5382A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DD4C853F-F2F6-4FB3-B30A-CB1B0FC733D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DD4C853F-F2F6-4FB3-B30A-CB1B0FC733D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DD4C853F-F2F6-4FB3-B30A-CB1B0FC733D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DD4C853F-F2F6-4FB3-B30A-CB1B0FC733D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7A3EFF1-A446-47AD-81EE-D7DFBCF78D51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7A3EFF1-A446-47AD-81EE-D7DFBCF78D51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7A3EFF1-A446-47AD-81EE-D7DFBCF78D51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7A3EFF1-A446-47AD-81EE-D7DFBCF78D51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0A2715B-B39C-4593-85ED-4660C6B31C9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0A2715B-B39C-4593-85ED-4660C6B31C9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0A2715B-B39C-4593-85ED-4660C6B31C9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0A2715B-B39C-4593-85ED-4660C6B31C9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E46FAD0-B2C7-4A30-80DF-5DF14ED031A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E46FAD0-B2C7-4A30-80DF-5DF14ED031A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E46FAD0-B2C7-4A30-80DF-5DF14ED031A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E46FAD0-B2C7-4A30-80DF-5DF14ED031A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E84F8756-DF3A-4E76-AA43-23223688D8CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E84F8756-DF3A-4E76-AA43-23223688D8CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E84F8756-DF3A-4E76-AA43-23223688D8CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E84F8756-DF3A-4E76-AA43-23223688D8CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A7A3EFF1-A446-47AD-81EE-D7DFBCF78D51} = {2281B11B-9937-411A-ABDA-9EC3525EF0DE}
+		{D0A2715B-B39C-4593-85ED-4660C6B31C9D} = {2281B11B-9937-411A-ABDA-9EC3525EF0DE}
+		{7E46FAD0-B2C7-4A30-80DF-5DF14ED031A8} = {2281B11B-9937-411A-ABDA-9EC3525EF0DE}
+		{E84F8756-DF3A-4E76-AA43-23223688D8CC} = {2281B11B-9937-411A-ABDA-9EC3525EF0DE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4DCB8DAC-34BD-457A-9C9A-0F664B5F93E7}
 	EndGlobalSection
 EndGlobal
